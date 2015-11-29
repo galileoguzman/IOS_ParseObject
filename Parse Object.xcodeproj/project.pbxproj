@@ -60,10 +60,8 @@
 		F22A80921C0B45AA007AD7D7 /* Parse Object */ = {
 			isa = PBXGroup;
 			children = (
-				F22A80961C0B45AA007AD7D7 /* AppDelegate.h */,
-				F22A80971C0B45AA007AD7D7 /* AppDelegate.m */,
-				F22A80991C0B45AA007AD7D7 /* Start.h */,
-				F22A809A1C0B45AA007AD7D7 /* Start.m */,
+				F22A80AE1C0B45F3007AD7D7 /* Controllers */,
+				F22A80AD1C0B45E6007AD7D7 /* Main */,
 				F22A809C1C0B45AA007AD7D7 /* Main.storyboard */,
 				F22A80A21C0B45AA007AD7D7 /* Assets.xcassets */,
 				F22A80A41C0B45AA007AD7D7 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				F22A80941C0B45AA007AD7D7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F22A80AD1C0B45E6007AD7D7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F22A80961C0B45AA007AD7D7 /* AppDelegate.h */,
+				F22A80971C0B45AA007AD7D7 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F22A80AE1C0B45F3007AD7D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F22A80991C0B45AA007AD7D7 /* Start.h */,
+				F22A809A1C0B45AA007AD7D7 /* Start.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
